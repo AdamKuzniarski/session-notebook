@@ -13,12 +13,17 @@ git commit -m 'My first commit' - Add commit to your file/files
 git commit -a -m 'My second commit' - Add commit to your files (skip staging), do not work with untracked files.
 git commit - Open Vim and you can write Multi-line commit messages
 
-git stash - Stash your changes, if you need to quick change your branch without commiting
-
 git reset --soft HEAD~1 - Undo your last commit and keep your changes staged
+
+git stash - Stash your changes, if you need to quick change your branch without commiting
+git stash clear - Delete all your stashes at once
+
 
 git branch [branch-name] - Create a new branch
 git branch - To see all branches in your repository
+git checkout [branch name] - Switch between branches
+git branch -d [branch-name] - Delete a branch
+
 
 git log - see commit history. To quit from 'log' use q button
 git log --since='1 week ago' - Show only commits from the las week
@@ -26,4 +31,4 @@ git log --since='1 week ago' - Show only commits from the las week
 git help [command] - See help for a command
 git [command] -h - See a quick summary of options. to QUIT help pages use q button
 
-git switch [branch name]- switch between branches
+
