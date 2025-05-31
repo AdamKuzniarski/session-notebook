@@ -22,6 +22,7 @@ git stash clear - Delete all your stashes at once
 git branch [branch-name] - Create a new branch
 git branch - To see all branches in your repository
 git checkout [branch name] - Switch between branches
+git switch [branch name] - Switch between branches
 git branch -d [branch-name] - Delete a branch
 
 
