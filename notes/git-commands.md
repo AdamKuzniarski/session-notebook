@@ -18,18 +18,19 @@ git reset --soft HEAD~1 - Undo your last commit and keep your changes staged
 git stash - Stash your changes, if you need to quick change your branch without commiting
 git stash clear - Delete all your stashes at once
 
-
 git branch [branch-name] - Create a new branch
 git branch - To see all branches in your repository
 git checkout [branch name] - Switch between branches
 git switch [branch name] - Switch between branches
 git branch -d [branch-name] - Delete a branch
 
+git remote add origin [github link ssh ex. git@github.com:AdamKuzniarski/test-repo.git] -connect you created repo on github with local git repo
+
+git branch -M main - Mark your main branch
+git push -u origin main - Upload your local Repository to GitHub
 
 git log - see commit history. To quit from 'log' use q button
 git log --since='1 week ago' - Show only commits from the las week
 
 git help [command] - See help for a command
 git [command] -h - See a quick summary of options. to QUIT help pages use q button
-
-
